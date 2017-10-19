@@ -8,38 +8,36 @@ html {
 }
 
 div {
-  padding: .5rem;
   text-align: center;
+  padding: .5rem;
 }
 
-ul li {
-  padding: .5rem;
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .btn {
-  background-color: #000;
-  color: #fff;
-
-  text-decoration: none;
+  display: inline-block;
+  background-color: #333;
   border-radius: 8px;
   font-size: 1.125rem;
+  padding: .4em;
 }
 
-.btn-subtle {
-  background-color: #ccc;
-  color: #fff;
-  padding: .4em;
-  text-decoration: none;
+.btn-small {
+  display: inline-block;
   border-radius: 8px;
-  font-size: 1.125rem;
+  font-size: .875rem;
+  padding: .3em;
 }
 
-.btn-ghost {
-  background-color: #fff;
-  color: #000;
-  padding: .4em;
-  text-decoration: none;
-  border: 3px solid #000;
+.btn-big {
+  display: inline-block;
   border-radius: 8px;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
+  padding:.75em;
 }
