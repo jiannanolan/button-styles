@@ -9,11 +9,14 @@ html {
 
 div {
   text-align: center;
-  padding: .5rem;
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+  padding: .5rem;
 }
 
 ul {
@@ -29,15 +32,45 @@ ul {
 }
 
 .btn-small {
+  font-size: .875rem;
+}
+
+.btn-spadding {
   display: inline-block;
   border-radius: 8px;
-  font-size: .875rem;
   padding: .3em;
 }
 
 .btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-bpadding {
   display: inline-block;
   border-radius: 8px;
-  font-size: 1.5rem;
-  padding:.75em;
+  padding: .75em;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-ghostborder {
+  border: 3px solid #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
 }
