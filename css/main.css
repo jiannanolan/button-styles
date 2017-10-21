@@ -9,6 +9,7 @@ html {
 
 div {
   text-align: center;
+  padding: .5em;
 }
 
 a {
@@ -27,8 +28,11 @@ ul {
   display: inline-block;
   background-color: #333;
   border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em;
+  font-size: 1.25rem;
+  padding-left: .4em;
+  padding-right: .4em;
+  padding-top: .4em;
+  padding-bottom: .4em;
 }
 
 .btn-small {
@@ -38,7 +42,10 @@ ul {
 .btn-spadding {
   display: inline-block;
   border-radius: 8px;
-  padding: .3em;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  padding-left: .75em;
+  padding-right: .75em;
 }
 
 .btn-big {
@@ -48,7 +55,10 @@ ul {
 .btn-bpadding {
   display: inline-block;
   border-radius: 8px;
-  padding: .75em;
+  padding-top: .3em;
+  padding-bottom: .3em;
+  padding-left: .3em;
+  padding-right: .3em;
 }
 
 .btn-primary {
@@ -68,6 +78,8 @@ ul {
 
 .btn-ghostborder {
   border: 3px solid #000;
+  padding-top: .2em;
+  padding-bottom: .2em;
 }
 
 .btn-warning {
