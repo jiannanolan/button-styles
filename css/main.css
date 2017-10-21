@@ -55,10 +55,10 @@ ul {
 .btn-bpadding {
   display: inline-block;
   border-radius: 8px;
-  padding-top: .3em;
-  padding-bottom: .3em;
-  padding-left: .3em;
-  padding-right: .3em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: .4em;
+  padding-right: .4em;
 }
 
 .btn-primary {
